@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="main.js"></script>
+	<style>
+		.chocolate {
+			font-style: italic;
+		}
+
+		body {
+			background-color: #b5651d;
+		}
+	</style>
+	<title>Chocolate</title>
+</head>
+<body>
+	<h1 class="chocolate">Chocolate is GOOOOOOD</h1>
+	<h2 class="chocolate">choco_coco</h2>
+	<h3>Founder of the page is the WARRDDD</h3>
+	<p>We are all fans of chocolate here!! What's your favorite type of chocolate?</p>
+	<img src="coco.jpg" alt="I am in luv with the coco" width="400">
+	<a href="https://www.medicalnewstoday.com/articles/270272">Article about Health benefits and risks of chocolate</a>
+	<p id="chocolate" style="font-family: serif;"></p>
+	<button onclick="buttonColor()" id="button">Change background color</button>
+
+	<script>
+		function buttonColor() {
+			var color = prompt("Enter a color:");
+			document.body.style.backgroundColor = color;
+		}
+	</script>
+</body>
+</html>
